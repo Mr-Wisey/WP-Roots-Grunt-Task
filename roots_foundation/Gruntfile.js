@@ -6,9 +6,9 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
 
   var jsFileList = [
-    'assets/js/plugins/*.js',
     'assets/js/_*.js',
-    'assets/js/plugins/foundation/*.js',
+    'assets/js/plugins/*.js',
+    'assets/js/plugins/foundation/*.js'
   ];
 
   grunt.initConfig({
